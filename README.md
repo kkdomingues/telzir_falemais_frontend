@@ -10,11 +10,11 @@ Foi desenvolvida uma pagina com o intuito de testar o endpoint criado. A pagina 
 
 
 
-![image-20210329210327321](assets\image-20210329210327321.png)
+![image-20210329210327321](https://user-images.githubusercontent.com/55723173/112918185-b3dff000-90da-11eb-98a4-4b4520c80b55.png)
 
-![image-20210329210416748](assets\image-20210329210416748.png)
+![image-20210329210416748](https://user-images.githubusercontent.com/55723173/112918196-b93d3a80-90da-11eb-82fb-63024a86fc74.png)
 
- ![image-20210329211119955](assets\image-20210329211119955.png)
+![image-20210329211119955](https://user-images.githubusercontent.com/55723173/112918207-c1957580-90da-11eb-88c0-7b7a1d43fdef.png)
 
 Na sessão de **simule um plano**, é possível informar os dados de:
 
@@ -28,7 +28,7 @@ Na sessão de **simule um plano**, é possível informar os dados de:
 
 Com esses dados é informado o custo com o **FaleMais** e **Sem FaleMais**. Segue a imagem com a simulação:
 
-![image-20210329211430542](assets\image-20210329211430542.png)
+![image-20210329211430542](https://user-images.githubusercontent.com/55723173/112918224-c8bc8380-90da-11eb-9702-6e5215d51c27.png)
 
 ---
 
