@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Telzir FaleMais</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar navbar-dark bg-purple shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <span class="telco-icon"></span>
+          <strong>Telzir</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Planos de Celular Telzir FaleMais!</h1>
+          <p class="lead text-muted">A Telzir trás novos planos para que você possa aproveitar mais os minutos falados
+            no seu dia!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#894ec3" />
+                  <text x="50%" y="45%" fill="#eceeef" dy=".3em">FaleMais</text>
+                  <text x="50%" y="55%" fill="#eceeef" dy=".3em">30</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Fale até 30 minutos sem pagar nada além
+                  do valor do plano com Telzir FaleMais 30!*</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#894ec3" />
+                  <text x="50%" y="45%" fill="#eceeef" dy=".3em">FaleMais</text>
+                  <text x="50%" y="55%" fill="#eceeef" dy=".3em">60</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">Fale até 60 minutos sem pagar nada além
+                  do valor do plano com Telzir FaleMais 60!*</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#894ec3" />
+                  <text x="50%" y="45%" fill="#eceeef" dy=".3em">FaleMais</text>
+                  <text x="50%" y="55%" fill="#eceeef" dy=".3em">120</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">Fale até 120 minutos sem pagar nada além
+                  do valor do plano com Telzir FaleMais 120!*</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <a href="#simulator-title" class="btn btn-info bg-purple simulate">Faça sua Simulação!</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="price-table text-center bg-light">
+      <div class="row py-lg-5">
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <h1 class="fw-light">Entenda os Valores</h1>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">DDD Origem</th>
+                <th scope="col">DDD Destino</th>
+                <th scope="col">Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>011</td>
+                <td>016</td>
+                <td>R$1,90</td>
+              </tr>
+              <tr>
+                <td>011</td>
+                <td>017</td>
+                <td>R$2,00</td>
+              </tr>
+              <tr>
+                <td>011</td>
+                <td>017</td>
+                <td>R$2,00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="simulator">
+      <div class="container">
+        <div class="row py-lg-5">
+          <div class="col-12 mx-auto">
+            <h1 class="fw-light text-center" id="simulator-title">Simule um plano</h1>
+          </div>
+
+          <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+              <select class="form-select ddd-origin" aria-label=".form-select-sm ddd-origin">
+                <option selected>DDD de Origem</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <select class="form-select ddd-destiny" aria-label=".form-select-sm ddd-destiny">
+                <option selected>DDD de Destino</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <select class="form-select plan" aria-label=".form-select-sm plan">
+                <option selected>Plano FaleMais</option>
+                <option value="30">FaleMais 30</option>
+                <option value="60">FaleMais 60</option>
+                <option value="120">FaleMais 120</option>
+              </select>
+            </div>
+
+            <div class="col">
+              <div class="input-group mb-3">
+                <input type="number" class="form-control minutes" placeholder="min/mês" aria-label="min/mês" aria-describedby="minutes">
+                <span class="input-group-text" id="minutes">Minutos</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 text-center">
+            <button type="button" class="btn btn-info bg-purple simulate">Simular</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="results text-center">
+      <div class="row py-lg-5">
+        <div class="col-lg-8 col-md-12 mx-auto">
+          <h1 class="fw-light">Resultados da Simulação</h1>
+          <table class="table table-striped result-table">
+            <thead>
+              <tr>
+                <th scope="col">DDD Origem</th>
+                <th scope="col">DDD Destino</th>
+                <th scope="col">Minutos</th>
+                <th scope="col">Plano</th>
+                <th scope="col">Com FaleMais</th>
+                <th scope="col">Sem FaleMais</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="12" class="no-data">Nenhuma simulação realizada!</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="mb-1">*Após o termino dos minutos do plano, é cobrado 10% a mais no valor por minuto de cada ligação</p>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

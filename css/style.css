@@ -1,0 +1,37 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.telco-icon {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    background-image: url(../img/telecom-icon.png);
+}
+
+.bg-purple, .bg-purple:hover {
+    background-color: #894ec3;
+    border-color: #894ec3;
+    color: #fff;
+}
+
+.bg-purple:active, .bg-purple:focus {
+    background-color: #894ec3;
+    border-color: #894ec3;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgb(178 77 236 / 50%);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: rgb(203 0 255 / 7%);
+}
